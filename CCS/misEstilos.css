@@ -1,0 +1,118 @@
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra elegante */
+  background: linear-gradient(135deg, #1a1a2e, #16213e); /* Fondo oscuro degradado */
+  color: #ffffff; /* Texto blanco para contraste */
+  padding: 15px;
+}
+
+/* Título del modal */
+.modal-header {
+  background-color: #0f3460; /* Azul oscuro elegante */
+  border-bottom: 1px solid #e94560; /* Línea divisoria roja */
+}
+
+.modal-title {
+  font-family: 'DynaPuff', cursive;
+  font-size: 1.8rem;
+  color: #e94560; /* Rojo vibrante */
+}
+
+/* Botón de cerrar */
+.modal-header .btn-close {
+  background-color: #e94560; /* Rojo vibrante */
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #ffffff; /* Blanco */
+}
+
+.modal-header .btn-close:hover {
+  background-color: #ff6f61; /* Rojo claro */
+  color: #000000; /* Negro */
+}
+
+/* Texto del formulario */
+.modal-body form {
+  padding: 10px;
+  color: #ffffff; /* Texto blanco */
+}
+
+/* Estilo de campos de entrada */
+.form-control {
+  border-radius: 8px;
+  background: #16213e; /* Fondo azul oscuro */
+  border: 1px solid #e94560; /* Borde rojo vibrante */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #ffffff; /* Texto blanco */
+}
+
+.form-control:focus {
+  border-color: #19dbec; /* Azul claro */
+  box-shadow: 0 0 5px rgba(34, 166, 179, 0.5); /* Efecto brillante */
+}
+
+/* Botones del modal */
+.modal-footer .btn-secondary {
+  background-color: #1a1a2e; /* Azul oscuro */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #e94560; /* Rojo vibrante */
+  color: #ffffff; /* Blanco */
+}
+
+.modal-footer .btn-primary {
+  background-color: #22a6b3; /* Azul claro */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #0fbcf9; /* Azul más claro */
+  color: #000000; /* Texto negro */
+}
+
+.profile-image {
+  display: inline-block;
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); /* Fondo degradado llamativo */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para resaltar */
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Imagen circular */
+  border: 3px solid #ff5733; /* Borde naranja vibrante */
+  box-shadow: 0 4px 8px rgba(255, 87, 51, 0.5); /* Sombra del borde */
+  object-fit: cover; /* Asegura el ajuste perfecto */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animaciones */
+}
+
+.profile-image img:hover {
+  transform: scale(1.1); /* Zoom suave al pasar el cursor */
+  box-shadow: 0 6px 12px rgba(255, 87, 51, 0.7); /* Sombra más intensa */
+}
+
+#insertImageButton, #changeImageButton {
+  background-color: #0078d7; /* Azul llamativo */
+  color: #ffffff; /* Texto blanco */
+  border: none;
+  border-radius: 12px; /* Botón redondeado */
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Animaciones */
+}
+
+#insertImageButton:hover, #changeImageButton:hover {
+  background-color: #0053a0; /* Azul más oscuro */
+  transform: translateY(-2px); /* Elevación sutil */
+}
+
+
